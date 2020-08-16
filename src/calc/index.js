@@ -194,10 +194,13 @@ const Calc = () => {
             <div className ="for_year  unvisible">
                 <label>Czy recepta ma zaznaczoną roczną realizację?</label>
                 <span className="tooltip" data-text="Pamiętaj! Recepta na narkotyki i psychotropy jest ważna : 30 dni, na preparaty immunologiczne - 120dni, a na antybiotyki - 7dni!"/>
-                <input type="checkbox" className="yes"/>
-                <label>Tak</label>
-                <input type="checkbox" className="no"/>
-                <label >Nie</label>
+                <div className="yes-or-no">
+                    <input type="checkbox" className="yes"/>
+                    <label>Tak</label>
+                    <input type="checkbox" className="no"/>
+                    <label >Nie</label>
+                </div>
+              
                 
             </div>
             <div className = "deny-div unvisible">Tej recepty nie możesz już zrealizować.</div>

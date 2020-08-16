@@ -185,6 +185,17 @@ button {
 
     width: 40vw;
 }
+
+.yes-or-no {
+    min-width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yes-or-no label {
+    padding: 10px;
+}
+
 option {
     text-align: center;
 }
@@ -241,8 +252,8 @@ footer {
         text-align: center;
     }
     input {
-        padding: 1rem 2.2rem 1rem 2.2rem;
-        font-size: 0.7rem;
+        padding: 1rem 3rem 1rem 3rem;
+        font-size: 1rem;
     }
 
     .add_info ul {
